@@ -627,7 +627,7 @@ p {
 
 /* phần grid started */
 .grid__started {
-    position: relative;
+    /* position: relative; */
     margin-bottom: 30px;
 }
 
@@ -640,7 +640,7 @@ p {
 .grid__started .grid-price {
     position: absolute;
     right: 40px;
-    top: 31%;
+    bottom: -22px;
 }
 
 .grid__started .grid-price h3 {
@@ -664,7 +664,7 @@ p {
 }
 
 .grid__started .grid__img {
-    position: relative;
+    position: relative ;
 }
 
 .grid__started .grid__img .grid__img__tag {
@@ -794,7 +794,7 @@ p {
     background-color: #0d369f;
 }
 
-@media screen and (max-width: 1199.98px) {
+/* @media screen and (max-width: 1199.98px) {
     .grid__started .grid-price {
         top: 25%;
     }
@@ -810,7 +810,7 @@ p {
     .grid__started .grid-price {
         top: 42%;
     }
-}
+} */
 
 /* @media screen and (max-width: 575.98px) {
     .grid__started .grid-price {

@@ -179,8 +179,15 @@ background-color: #fff;
         top: 0;
         position: fixed;
         width: 100%;
+        background-color: #161c2d;
     }
-
+.navbar-toggler-icon {
+    line-height: 25px;
+}
+.navbar-toggler-icon i {
+    color: #fff;
+    background-color: #4867b0;
+}
     .container-fluid {
         padding: 0;
     }
@@ -237,7 +244,7 @@ background-color: #fff;
 }
 
 .owl-stage-outer .owl-stage .owl-item .pic1 {
-    background-image: url(../img__capstone/banner2.jpg);
+    background-image: url(./img__capstone/banner2.jpg);
 
     height: 450px;
     background-size: cover;
@@ -251,7 +258,7 @@ background-color: #fff;
     height: 450px;
     background-size: cover;
     background-position: center;
-    background-image: url(../img__capstone/banner3.jpg);
+    background-image: url(./img__capstone/banner3.jpg);
 }
 
 .pic-layer {
@@ -645,7 +652,7 @@ background-color: #fff;
 
 /* phần grid started */
 .grid__started {
-    position: relative;
+    
     margin-bottom: 30px;
 }
 
@@ -658,7 +665,7 @@ background-color: #fff;
 .grid__started .grid-price {
     position: absolute;
     right: 40px;
-    top: 31%;
+    bottom: -22px;
 }
 
 .grid__started .grid-price h3 {
@@ -814,7 +821,7 @@ background-color: #fff;
     background-color: #0d369f;
 }
 
-@media screen and (max-width: 1199.98px) {
+/* @media screen and (max-width: 1199.98px) {
     .grid__started .grid-price {
         top: 25%;
     }
@@ -830,7 +837,7 @@ background-color: #fff;
     .grid__started .grid-price {
         top: 42%;
     }
-}
+} */
 
 
 
@@ -838,7 +845,7 @@ background-color: #fff;
 
 /* carousel-2 */
 #carousel-2 .carousel-2__inner {
-    background-image: url(../img__capstone/bg3.jpg);
+    background-image: url(./img__capstone/bg3.jpg);
     background-position: bottom;
     background-size: cover;
     margin-top: 10px;
