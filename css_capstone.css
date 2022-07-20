@@ -1253,6 +1253,23 @@ p {
         top: -20%;
     }
 }
+@media screen and (max-width: 440px) {
+    .footer__inner .subcribe__content .right form {
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .footer__inner .subcribe__content .right form a {
+        width: 100%;
+        border-radius: 5px ;
+        margin-top: 20px;
+    }
+    .footer__inner .subcribe__content .left , .footer__inner .subcribe__content .right {
+        padding: 0;
+    }
+    .footer__inner .subcribe__content .left h1 {
+        font-size: 22px;
+    }
+}
 
 
 /* phần bottom */
